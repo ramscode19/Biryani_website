@@ -566,7 +566,7 @@ header {
 
 .gaphead h1{
     font-size: 60px;
-    text-align: center;
+    white-space: nowrap;
     margin-top: 100px;
 }
 
@@ -1499,7 +1499,7 @@ header {
 
 .footer img{
     margin-top: 150px;
-    width: 100%;
+    width: 1330px;
 }
 
 
@@ -1519,7 +1519,20 @@ header {
   body{
     overflow: scroll;
 }
+    .menuanimationright{
+    animation: menuright 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 5%
+}
+    .menuanimationleft{
+    animation: menuright 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 5%
+}
 
+.menuh1{
+white-space: nowrap;
+}
 }
 
 
@@ -2282,6 +2295,10 @@ header {
   body{
     overflow: scroll;
 }
+    .totaltable{
+        white-space: nowrap;
+
+    }
 }
 
 
@@ -5572,6 +5589,16 @@ header {
   body{
     overflow: scroll;
 }
+    .menuanimationright{
+    animation: menuright 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 5%
+}
+    .menuanimationleft{
+    animation: menuright 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 5%
+}
 
 
         
@@ -6567,6 +6594,12 @@ header {
   body{
     overflow: scroll;
 }
+    .signin{
+    
+    margin: 100px 50px;
+ 
+    
+}
 }
 
 
@@ -6930,6 +6963,12 @@ header {
 
   body{
     overflow: scroll;
+}
+    .signin{
+    
+    margin: 100px 50px;
+ 
+    
 }
 }
 
@@ -9217,6 +9256,7 @@ header {
     position: absolute;
     bottom: 180px;
     left: 650px;
+    white-space: nowrap;
     color: black;
     font-size: 40px;
     font-weight: 900;
