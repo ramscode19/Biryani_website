@@ -567,7 +567,7 @@ header {
 .gaphead h1{
     font-size: 60px;
     text-align: center;
-    // margin-top: 100px;
+    margin-top: 100px;
 }
 
 .blurimg{
@@ -806,6 +806,9 @@ header {
 
   body{
     overflow: scroll;
+}
+    marquee{
+    width: 1330px;
 }
 }
 
